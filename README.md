@@ -1,7 +1,6 @@
 # LINE RUNNER
 
-The line moves in response to sound. The user can interact with the balls by using their voice. 
-For this project I used the Box2D add-on. The project is meant to evoke feelings of the power of a human voice over technology. 
+The line moves in response to sound. The user can interact with the balls by using their voice. The project is meant to evoke feelings of the power of a human voice over technology. For this project I used the Box2D add-on.
 
 ![Alt text](https://github.com/jmitch12/ofFinalTwo/blob/master/greenballs.png "balls")
 
