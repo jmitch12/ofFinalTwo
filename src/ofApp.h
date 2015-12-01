@@ -29,6 +29,20 @@ public:
     ofxBox2dEdge                            ground;
     
     vector		<shared_ptr<ofxBox2dCircle> >	circles;		  //	default box2d circles
-    vector		<shared_ptr<ofxBox2dRect> >      boxes;			  //	defalut box2d rects
+    
+    
+    void audioIn(float * input, int bufferSize, int nChannels);
+    
+    vector <float> left;
+    vector <float> right;
+    vector <float> volHistory;
+    
+    int 	bufferCounter;
+    int 	drawCounter;
+    
+    float smoothedVol;
+    float scaledVol;
+    
+    ofSoundStream soundStream;
     
 };
