@@ -75,7 +75,7 @@ void ofApp::update(){
 void ofApp::draw(){
     for(int i=0; i<circles.size(); i++) {
         ofFill();
-        ofSetHexColor(0x90d4e3);
+        ofSetColor(205,223,121);
         circles[i].get()->draw();
     }
     
