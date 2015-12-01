@@ -48,7 +48,7 @@ void ofApp::setup(){
 void ofApp::update(){
     
     //lets scale the vol up to a 0-1 range
-    scaledVol = ofMap(smoothedVol, 0.0, 0.17, 0.0, 1.0, true);
+    scaledVol = ofMap(smoothedVol, 0.0, 0.17, 0.0, 10.0, true);
     
     //lets record the volume into an array
     volHistory.push_back( scaledVol );
